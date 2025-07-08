@@ -9,7 +9,7 @@ users_table = dynamodb.Table("MovieMagic_Users")
 bookings_table = dynamodb.Table("MovieMagic_Bookings")
 
 sns = boto3.client('sns', region_name="us-east-1") 
-sns_topic_arn = 'arn:aws:sns:us-east-1:971422691207:Movie'
+sns_topic_arn = 'arn:aws:sns:us-east-1:545009839820:movie:1584f44e-3bce-413b-ac71-b035181bf9a8'
 
 app = Flask(_name_)
 app.secret_key = 'super-secret-key'
